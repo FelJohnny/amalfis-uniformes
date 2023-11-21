@@ -72,6 +72,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     
     
 }
@@ -107,6 +108,12 @@ ul{
     transform: scaleX(1);
 }
 
+
+.Nav .search{
+    margin-left: 10px;
+    cursor: pointer;
+    color:#01426a;
+}
 /*---------------------------------------@MEDIA---------------------------------------*/
 
 @media(max-width: 800px){

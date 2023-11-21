@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css'
+import { FaSearch } from "react-icons/fa";
 
 const Header = () =>{
     return(
@@ -8,7 +9,7 @@ const Header = () =>{
                 <div className="containerCenter">
                     <div className="barHeader">
                         <p>contato@amalfis.com.br</p>
-                        <a href="/">Area do Cliente</a>
+                        <a href="/">Area do Cliente →</a>
                     </div>
                 </div>
                 <nav className="Nav">
@@ -19,6 +20,8 @@ const Header = () =>{
                         <li><a href="/">Produtos</a></li>
                         <li><a href="/">Trabalhe Conosco</a></li>
                         <li><a href="/">Contato</a></li>
+                        <FaSearch className="search"/>
+                        
                     </ul>
                 </nav>
             </header>
