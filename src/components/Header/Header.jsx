@@ -9,7 +9,7 @@ const Header = () =>{
                 <div className="containerCenter">
                     <div className="barHeader">
                         <p>contato@amalfis.com.br</p>
-                        <a href="/">Area do Cliente →</a>
+                        <a href="https://amalfis.etion.digital/" target="_blank">Area do Cliente →</a>
                     </div>
                 </div>
                 <nav className="Nav">
