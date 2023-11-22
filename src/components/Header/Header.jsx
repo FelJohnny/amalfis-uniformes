@@ -15,11 +15,11 @@ const Header = () =>{
                 <nav className="Nav">
                     <a href="/"><img className="logoNav" src="./img/Header/LogoAmalfis.png"/></a>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">Sobre</a></li>
-                        <li><a href="/">Produtos</a></li>
-                        <li><a href="/">Trabalhe Conosco</a></li>
-                        <li><a href="/">Contato</a></li>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/index.html">Sobre</a></li>
+                        <li><a href="/index.html">Produtos</a></li>
+                        <li><a href="/index.html">Trabalhe Conosco</a></li>
+                        <li><a href="/index.html">Contato</a></li>
                         <FaSearch className="search"/>
                         
                     </ul>
